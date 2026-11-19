@@ -5,7 +5,7 @@ An interactive banking analytics project built using **Python, SQL, MySQL, and S
 
 ## Live Dashboard
 
-[**Open BharatBank Analytics Dashboard**](https://p0cd3nzt-8501.inc1.devtunnels.ms/)
+[**Open BharatBank Analytics Dashboard**](https://bharatbank-analytics.streamlit.app/)
 
 ## Dashboard Preview
 
