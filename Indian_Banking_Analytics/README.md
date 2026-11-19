@@ -5,7 +5,7 @@ An interactive banking analytics project built using **Python, SQL, MySQL, and S
 
 ## Live Dashboard
 
-[**Open BharatBank Analytics Dashboard**](https://p0cd3nzt-8501.inc1.devtunnels.ms/)
+**[Open BharatBank Analytics Dashboard](https://bharatbank-analytics.streamlit.app/)**
 
 ## Dashboard Preview
 
@@ -23,21 +23,25 @@ An interactive banking analytics project built using **Python, SQL, MySQL, and S
 ## Dashboard Screenshots
 
 ### 1. Home Dashboard
+
 Overview of customer demographics, financial KPIs, and regional banking patterns.
 
 ![Home Dashboard](screenshots/home_dashboard.png)
 
 ### 2. Loan Analysis
+
 Explore loan portfolios, borrower distribution, and loan-related insights.
 
 ![Loan Analysis](screenshots/loan_analysis.png)
 
 ### 3. Deposit Analysis
+
 Visualize deposit products and customer deposit patterns.
 
 ![Deposit Analysis](screenshots/deposit_analysis.png)
 
 ### 4. Summary & Customer Insights
+
 Explore customer-level information, income segments, and analytical summaries.
 
 ![Summary Dashboard](screenshots/summary_dashboard.png)
@@ -103,9 +107,9 @@ cd BharatBank-Analytics
 
 3. Create and activate a virtual environment:
 
-```bash
+```powershell
 python -m venv .venv
-.venv\Scripts\activate
+.venv\Scripts\Activate.ps1
 ```
 
 4. Install dependencies:
@@ -119,8 +123,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
-Open `http://localhost:8501` in your browser.
 
 ## Data Disclaimer
 
