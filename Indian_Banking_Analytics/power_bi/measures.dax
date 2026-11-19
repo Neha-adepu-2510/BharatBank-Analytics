@@ -1,0 +1,25 @@
+-- Create these measures in Power BI after loading the customers table.
+Total Customers = DISTINCTCOUNT(customers[customer_id])
+
+Total Deposits = SUM(customers[bank_deposits_inr])
+
+Total Loans = SUM(customers[bank_loans_inr])
+
+Average Annual Income = AVERAGE(customers[annual_income_inr])
+
+Borrowers = CALCULATE(DISTINCTCOUNT(customers[customer_id]), customers[bank_loans_inr] > 0)
+
+Borrower Rate = DIVIDE([Borrowers], [Total Customers], 0)
+
+Deposit to Loan Ratio = DIVIDE([Total Deposits], [Total Loans], 0)
+
+Credit Card Balance = SUM(customers[credit_card_balance_inr])
+
+FD Portfolio = SUM(customers[fixed_deposits_inr])
+
+RD Portfolio = SUM(customers[recurring_deposits_inr])
+
+Average Deposit = AVERAGE(customers[bank_deposits_inr])
+
+-- Format currency measures as Indian Rupee (₹) in Power BI Model view.
+-- Keep measures numeric; do not concatenate the ₹ symbol into DAX strings.

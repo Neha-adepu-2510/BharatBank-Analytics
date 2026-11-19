@@ -1,0 +1,25 @@
+{
+  "name": "BharatBank Modern",
+  "dataColors": [
+    "#168AAD",
+    "#F4A261",
+    "#1B4965",
+    "#2A9D8F",
+    "#8D99AE",
+    "#E76F51",
+    "#6C63FF"
+  ],
+  "background": "#F6F8FC",
+  "foreground": "#16324F",
+  "tableAccent": "#168AAD",
+  "visualStyles": {
+    "*": {
+      "*": [
+        {
+          "wordWrap": true,
+          "fontFamily": "DM Sans"
+        }
+      ]
+    }
+  }
+}
